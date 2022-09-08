@@ -1,0 +1,292 @@
+*{
+    padding: 0;
+    border: 0;
+}
+
+.navbar{
+    border-bottom: blue 4pt solid;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(104, 188, 209);
+    font-size: 15pt;
+}
+
+.nav-item{
+    text-align: center;
+    margin-left: 20pt;
+}
+
+.navbar-brand{
+    margin-left: 20pt;
+}
+
+.navbar-brand:hover{
+    transform: scale(1.2);
+    transition: all 0.5s linear;
+}
+
+
+.nav-item-ico{
+    text-align: right end;
+    margin-left: 50pt;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    color: green;
+    font-size: 20pt;
+}
+
+.nav-item-ico:hover{
+    transform: scale(1.5);
+    transition: all 0.5s linear;
+}
+
+.nav-link{
+    color:black;
+    border-radius: 30pt;
+
+}
+
+.nav-link:hover{
+    background-color: white;
+    border-radius: 30pt;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dropdown-item{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+.dropdown-item:hover{
+    background-color: rgb(97, 185, 212);
+    color: white;
+}
+
+.btn-outline{
+    background-color: white;
+    color: blue;
+}
+
+.btn-outline:hover{
+    background-color: blue;
+    color: white;
+}
+
+.d-flex{
+    text-align: center;
+    margin-left: 20pt;
+}
+
+h2{
+    font-size: 20pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-language-override: normal;
+    text-align: center;
+    margin-top: 20pt;
+}
+
+.carousel-control-next-icon{
+    background-color: black;
+    height: 60pt;
+}
+
+.carousel-control-prev-icon{
+    background-color: black;
+    height: 60pt;
+}
+
+.carousel-inner{
+    height: 300pt;
+    width: 100%;
+    text-align: center;
+}
+
+p button{
+    text-decoration: none;
+    background-color: rgb(97, 185, 212);
+    border-radius: 2pt;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+p button:hover{
+    transform: scale(1.5);
+}
+
+p button a{
+    text-decoration: none;
+    color: white;
+}
+
+p button a:hover{
+    color: white;
+}
+
+.carousel-inner img{
+    padding: 10pt;
+    height: 300pt;
+    width: 80%;
+    object-fit: fill;
+    filter: saturate(130%);
+    filter:contrast(110%)
+}
+
+.carousel-caption{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+.container-fluid-sobre{
+    border-top: blue 4pt solid;
+    width: 100%;
+    height: 450pt;
+    background-color: rgba(97, 185, 212, 0.651);
+    float: left;
+}
+
+.container-fluid-sobre h3{
+    font-size: 18pt;
+    margin-top: 10pt;
+    text-align: center;
+}
+
+.container-fluid-one{
+    width: 50%;
+    float: left;
+    height: 400pt;
+}
+
+.container-fluid-one h4{
+    text-align: left;
+    font-size: 14pt;
+    margin-left: 10pt;
+}
+
+.container-fluid-one p{
+    text-align: left;
+    text-align: justify;
+    font-size: 12pt;
+    margin-left: 10pt;
+}
+
+.container-fluid-formulario{
+    float: left;
+    width: 100%;
+    margin-left: 10pt;
+    margin-right: 10pt;
+}
+
+.container-fluid-formulario h4{
+    text-align: left;
+    font-size: 14pt;
+    margin-left: 0pt;
+}
+
+.container-fluid-two{
+    width: 45%;
+    margin-left: 20pt;
+    float: left;
+    height: 250pt;
+    border-left: 2pt black solid;
+    text-align: center;
+}
+.container-fluid-two h4{
+    text-align: center;
+    font-size: 14pt;
+    margin-top: 5pt;
+}
+
+.container-fluid-two iframe{
+    padding: 5pt;
+    float: left;
+}
+.container-fluid-three{
+    width: 45%;
+    height: 150pt;
+    margin-left: 20pt;
+    text-align: center;
+    float: left;
+    border-left: 2pt black solid
+}
+.container-fluid-three h4{
+    text-align: center;
+    font-size: 14pt;
+    margin-top: 5pt;
+}
+
+.container-fluid-three p ion-icon{
+    font-size: 30pt;
+    border: white 4pt solid;
+    border-radius: 30pt;
+}
+
+.container-fluid-three p a{
+    margin-left: 30pt;
+}
+
+.container-fluid-footer{
+    margin-top: 40pt black solid;
+    height: auto;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.514);
+}
+.container-fluid-primeiro{
+    padding-bottom: 10pt;
+    height: 300pt;
+}
+
+.container-fluid-primeiro h2{
+    padding-bottom: 20pt;
+    padding-top: 20pt;
+}
+
+.container-fluid-login{
+    width: 80%;
+    height: 300pt;
+    padding: auto;
+    margin: auto;
+    text-align: center;
+}
+
+.container-fluid-login h2{
+    padding-top: 60pt;
+}
+
+#enviar{
+    margin-top: 10pt;
+}
+
+.catalogo{
+    width: 100%;
+    height: max-content;
+    float: left;
+    text-align: center;
+}
+
+.card{
+    float: left;
+    margin: 10pt;
+    margin-left: 25pt;
+    padding: 5pt;
+    background-color: black;
+    color: white;
+    text-align: justify;
+}
+
+.card:hover{
+    transform:scale(1.1);
+}
+
+.card img{
+    height: 150pt;
+}
+
+.card h5{
+    text-align: center;
+    margin-bottom: 20pt;
+    border-bottom: 2pt yellow solid;
+    padding-bottom: 10pt;
+}
